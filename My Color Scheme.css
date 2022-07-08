@@ -1,0 +1,109 @@
+@importtheme "_base";
+
+CustomIDAMemo
+{
+    qproperty-line-fg-default: #168bb3;
+    qproperty-line-fg-regular-comment: #1ddbd8;
+    qproperty-line-fg-repeatable-comment: #808080;
+    qproperty-line-fg-automatic-comment: #808080;
+    qproperty-line-fg-insn: #d45a53;
+    qproperty-line-fg-dummy-data-name: #19bcab;
+    qproperty-line-fg-regular-data-name: #179be7;
+    qproperty-line-fg-demangled-name: #1895cc;
+    qproperty-line-fg-punctuation: #0e4cbc;
+    qproperty-line-fg-charlit-in-insn: #008000;
+    qproperty-line-fg-strlit-in-insn: #00ff00;
+    qproperty-line-fg-numlit-in-insn: #008000;
+    qproperty-line-fg-void-opnd: #ff8000;
+    qproperty-line-fg-code-xref: #008000;
+    qproperty-line-fg-data-xref: #8080ff;
+    qproperty-line-fg-code-xref-to-tail: #ff0000;
+    qproperty-line-fg-data-xref-to-tail: #808000;
+    qproperty-line-fg-error: #010101;
+    qproperty-line-fg-line-prefix: #c0c0c0;
+    qproperty-line-fg-opcode-byte: #126cff;
+    qproperty-line-fg-extra-line: #1bc9d8;
+    qproperty-line-fg-alt-opnd: #20c0d7;
+    qproperty-line-fg-hidden: #808080;
+    qproperty-line-fg-libfunc: #8080ff;
+    qproperty-line-fg-locvar: #008000;
+    qproperty-line-fg-dummy-code-name: #23c1b8;
+    qproperty-line-fg-asm-directive: #1677ff;
+    qproperty-line-fg-macro: #800080;
+    qproperty-line-fg-strlit-in-data: #008000;
+    qproperty-line-fg-charlit-in-data: #008000;
+    qproperty-line-fg-numlit-in-data: #008040;
+    qproperty-line-fg-keyword: #41a4a6;
+    qproperty-line-fg-register-name: #18a0b7;
+    qproperty-line-fg-import-name: #ff00ff;
+    qproperty-line-fg-segment-name: #808000;
+    qproperty-line-fg-dummy-unknown-name: #2499a1;
+    qproperty-line-fg-code-name: #1b8bff;
+    qproperty-line-fg-unknown-name: #147dc5;
+    qproperty-line-fg-collapsed-line: #27d4d8;
+    qproperty-line-bg-default: #302f2e;
+    qproperty-line-bg-selected: #17b2a9;
+    qproperty-line-pfx-libfunc: #00ffff;
+    qproperty-line-pfx-func: #c8c8c8;
+    qproperty-line-pfx-insn: #158592;
+    qproperty-line-pfx-data: #808080;
+    qproperty-line-pfx-unexplored: #808000;
+    qproperty-line-pfx-extern: #bf65f4;
+    qproperty-line-pfx-current-item: #000000;
+    qproperty-line-pfx-current-line: #0000ff;
+    qproperty-line-bg-bpt-enabled: #804000;
+    qproperty-line-bg-bpt-disabled: #ff8000;
+    qproperty-line-bg-bpt-unavailable: #0000ff;
+    qproperty-graph-bg-top: #b1f9f9;
+    qproperty-graph-bg-bottom: #a0cfcf;
+    qproperty-graph-node-title-normal: #ffff00;
+    qproperty-graph-node-title-selected: #000000;
+    qproperty-graph-node-title-current: #ccffff;
+    qproperty-graph-node-frame-group: #ccffcc;
+    qproperty-graph-node-shadow: #ff0000;
+    qproperty-graph-node-high1: #0000ff;
+    qproperty-graph-node-high2: #008000;
+    qproperty-graph-node-foreign: #ff0000;
+    qproperty-graph-edge-normal: #ff00ff;
+    qproperty-graph-edge-yes: #00ffff;
+    qproperty-graph-edge-high: #1ac4c2;
+    qproperty-graph-edge-current: #424242;
+    qproperty-line-fg-patched-bytes: #1fbe6c;
+    qproperty-line-fg-unsaved-changes: #ffffe1;
+    qproperty-line-bg-highlight: #0000ff;
+    qproperty-line-bg-hint: #800080;
+}
+CustomIDAMemo[debugging="true"]
+{
+    qproperty-line-bg-default: #00ff00;
+}
+MainMsgList
+{
+    color: #ff8000;
+}
+TCpuRegs
+{
+    qproperty-register-defined: #800080;
+    qproperty-register-edited: #c0c0c0;
+    qproperty-register-unavailable: #ff0000;
+}
+TextArrows
+{
+    qproperty-jump-in-function: #008000;
+    qproperty-jump-external-to-function: #4040ff;
+    qproperty-jump-target: #ffffff;
+    qproperty-register-target: #e0f8ff;
+}
+navband_t
+{
+    qproperty-lib-function: #00a2e8;
+    qproperty-function: #b97a57;
+    qproperty-code: #c0c0c0;
+    qproperty-data: #b6b66b;
+    qproperty-undefined: #ffa6ff;
+    qproperty-extern: #ff5b5b;
+    qproperty-error: #000000;
+    qproperty-gap: #ffff7f;
+    qproperty-cursor: #ffaa00;
+    qproperty-lumina-function: #60d0ff;
+}
